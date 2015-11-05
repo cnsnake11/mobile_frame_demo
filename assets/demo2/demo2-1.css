@@ -1,0 +1,24 @@
+#wrapper{
+    padding-top: 269px;
+}
+
+
+#logo{
+    width: 100%;
+    height: 270px;
+    background: url("img/logo.jpg") no-repeat left;
+
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+ }
+
+
+#text{
+
+position: relative;
+    z-index: 2;
+    background: white;
+}
+
