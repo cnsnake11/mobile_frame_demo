@@ -28,7 +28,7 @@ public class LogonActivity extends OpenWebViewActivity {
         Intent i = new Intent(Intent.ACTION_MAIN);
         i.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
         i.addCategory(Intent.CATEGORY_HOME);
-        startActivity(i);//返回桌面 而不退出程序
+        startActivity(i);// 返回桌面 而不退出程序
     }
 
 }
